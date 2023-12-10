@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   goalgo_frontend:
-    build: ./front
+    build: ./frontend
     ports:
       - "80:80"
 
